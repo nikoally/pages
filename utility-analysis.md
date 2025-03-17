@@ -61,12 +61,11 @@ Power factor (PF) measures the efficiency of electricity use, specifically the r
 - **Ideal PF:** Typically above 0.90 (or 90%).
 - **Poor PF:** Below 0.90 may incur additional charges from utilities due to higher current draw and reduced grid efficiency.
 
+In order to improve power factor, we generally recommend installing power factor correction equipment such as capacitors or capacitor banks, optimizing equipment use, or upgrading inefficient motors.
+
 For a more technical introduciton to power factor, check out this video: 
 
 {% include youtube.html id="Tv_7XWf96gg" %}
-
-In order to improve power factor, we generally recommend installing power factor correction equipment such as capacitors or capacitor banks, optimizing equipment use, or upgrading inefficient motors.
-
 
 ## How to Perform Utility Analysis
 
@@ -98,7 +97,12 @@ Effective utility analysis follows these general steps:
   ---
 ## Activity
 
-Using the data at the link below, conduct a utility analysis (I did step 1 for you). Then, calculate the average kW, kWh, and MMbtu rates. Note that the data provided is in CCF, so you will have to convert units. Finally, identify which recommendations would be relevant for this company. 
+Using the data at the link below, conduct a utility analysis (I did step 1 for you). Then, calculate the average kW, kWh, and MMbtu rates. Note that the data provided is in CCF, so you will have to convert units. Finally, identify which recommendations would be relevant for this company and identify the corresponding ARC codes. 
 
 
 [Download Excel File](assets/utility-analysis-activity.xlsx)
+[Download the ARC Manual](https://iac.university/file/technical/ARC%20List%20-%20V21.1.pdf)
+
+## Quiz
+
+{% raw %}{% include utility-quiz.html %}{% endraw %}
