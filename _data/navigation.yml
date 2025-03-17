@@ -2,10 +2,9 @@
   link: /
 - name: About
   link: /about/
-- name: Blog
-  link: /blog/
-- name: Contact
-  link: /contact/
+- name: ITAC Training
   dropdown: 
-    - name: Page 2
-      link: /page-2/
+    - name: Utility Analysis
+      link: /utility-analysis/
+    - name: Compressed Air
+      link: /compressed-air/
