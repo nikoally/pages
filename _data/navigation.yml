@@ -3,6 +3,6 @@
 - name: ITAC Training
   dropdown: 
     - name: Utility Analysis
-      link: /utility-analysis/
+      link: itac-training/utility-analysis/
     - name: Compressed Air
-      link: /compressed-air/
+      link: itac-training/compressed-air/
