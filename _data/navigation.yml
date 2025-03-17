@@ -1,8 +1,0 @@
-- name: About
-  link: /about/
-- name: ITAC Training
-  dropdown: 
-    - name: Utility Analysis
-      link: itac-training/utility-analysis/
-    - name: Compressed Air
-      link: itac-training/compressed-air/
