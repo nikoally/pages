@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Compressed Air
-permalink: /Compressed Air/
+permalink: itac-training/Compressed Air/
 ---
