@@ -6,3 +6,5 @@ title: Nicholas Bailey
 description: 
 
 show_downloads: false
+
+include: ["_posts"]
