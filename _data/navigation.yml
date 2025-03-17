@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+- name: About
+  link: /about/
+- name: Blog
+  link: /blog/
+- name: Contact
+  link: /contact/
+  dropdown: 
+    - name: Page 2
+      link: /page-2/
