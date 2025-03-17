@@ -8,3 +8,4 @@ description:
 show_downloads: false
 
 include: ["_posts"]
+include: ["itac-training"]
