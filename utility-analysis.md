@@ -24,33 +24,33 @@ There's a few recommendations that are broadly applicable across many different 
 ### 1. **Pay Bills on Time**
 - Avoid late fees, which can typically range from 1% to 5% of the total bill.
 - **Savings Calculation:**
-  \[
+  \\(
   \text{Annual Savings} = \text{Average monthly late fee} \times 12
-  \]
+  \\)
 
 ### 2. **Review and Switch Rate Plans**
 - Many utilities offer multiple rate structures such as time-of-use (TOU) or demand-based tariffs.
 - Calculate potential savings by comparing your current bill with hypothetical scenarios under alternative rate structures.
 - **Savings Calculation:**
-  \[
+  \\(
   \text{Annual Savings} = (\text{Current rate annual cost}) - (\text{Proposed rate annual cost})
-  \]
+  \\)
 
 ### 3. **Third-party Energy Suppliers**
 - Third-party suppliers might offer competitive energy rates compared to your current utility provider.
 - Request quotes from alternative suppliers to compare pricing.
 - **Savings Calculation:**
-  \[
+  \\(
   \text{Annual Savings} = (\text{Current annual energy cost}) - (\text{Third-party annual energy cost})
-  \]
+  \\)
 
 ### 4. **Tax-free Status**
 - Many manufacturing firms are eligible for state tax exemptions on energy use.
 - Typically, these taxes range from 3% to 10% of energy costs.
 - **Savings Calculation:**
-  \[
+  \\(
   \text{Annual Savings} = (\text{Energy costs}) \times (\text{Tax rate})
-  \]
+  \\)
 
 ---
 
