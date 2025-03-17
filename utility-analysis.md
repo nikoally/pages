@@ -56,21 +56,17 @@ There's a few recommendations that are broadly applicable across many different 
 
 ## **Power Factor Correction**
 
-**What is Power Factor?**  
-Power factor (PF) measures the efficiency of electricity use, specifically the ratio between real power (used to perform actual work, measured in kilowatts or kW) and apparent power (total power supplied, measured in kilovolt-amperes or kVA). A lower power factor indicates inefficiency, causing utilities to impose penalties (usually below a threshold like 0.90).
+Power factor (PF) measures the efficiency of electricity use, specifically the ratio between real power (used to perform actual work, measured in kilowatts or kW) and apparent power (total power supplied, measured in kilovolt-amperes or kVA). A lower power factor indicates inefficiency, causing utilities to impose penalties (usually below a threshold like 0.90). 
 
 - **Ideal PF:** Typically above 0.90 (or 90%).
 - **Poor PF:** Below 0.90 may incur additional charges from utilities due to higher current draw and reduced grid efficiency.
 
-**Improving Power Factor:**  
-Install power factor correction equipment such as capacitors or capacitor banks, optimize equipment use, or upgrade inefficient motors.
+For a more technical introduciton to power factor, check out this video: 
 
-- **Savings Calculation:**  
-First, determine your existing power factor penalty cost from utility bills, then estimate the potential improved PF after installing correction equipment:
-  \[
-  \text{Annual Savings} = \text{Current PF Penalties} - \text{Projected PF Penalties after improvement}
-  \]
----
+{% include youtube.html id="Tv_7XWf96gg" %}
+
+In order to improve power factor, we generally recommend installing power factor correction equipment such as capacitors or capacitor banks, optimizing equipment use, or upgrading inefficient motors.
+
 
 ## How to Perform Utility Analysis
 
@@ -105,3 +101,4 @@ Effective utility analysis follows these general steps:
 Using the data at the link below, conduct a utility analysis (I did step 1 for you). Then, calculate the average kW, kWh, and MMbtu rates. Note that the data provided is in CCF, so you will have to convert units. Finally, identify which recommendations would be relevant for this company. 
 
 
+[Download Excel File](assets/utility-analysis-activity.xlsx)
