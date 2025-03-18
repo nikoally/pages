@@ -142,17 +142,8 @@ Analyze the scenario and calculate the annual energy savings (in kWh) achievable
 3. **Discuss which measure provides greater savings** and whether implementing both measures is beneficial or not. 
 
 ---
-# Quiz
 
 {% raw %}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compressed Air Quiz</title>
-</head>
 <body>
     <h2>Compressed Air Quiz</h2>
 
