@@ -23,9 +23,8 @@ defaults:
       mathjax: true
   -
     scope:
-      path: "" # any file that's not a post will be a "page" layout by default
+      path: "" 
     values:
-      layout: "page"
       mathjax: true
 
 ###############################################
