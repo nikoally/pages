@@ -270,13 +270,13 @@ Analyze the scenario and calculate the annual energy savings (in kWh) achievable
 
             // Check Question 1 (kWh Savings from Shutting Down Compressor)
             let q1Answer = document.getElementById('q1').value.trim();
-            if (q1Answer === "5481") {
+            if (Math.abs(q1Answer - 1827) / 1827 <= 0.1) {
                 score += 1;
             }
 
             // Check Question 2 (kWh Savings from Stopping Compressed Air for Cleaning)
             let q2Answer = document.getElementById('q2').value.trim();
-            if (q2Answer === "28") {
+            if (Math.abs(q2Answer - 28) / 28 <= 0.1) {
                 score += 1;
             }
 
@@ -299,8 +299,7 @@ Analyze the scenario and calculate the annual energy savings (in kWh) achievable
             }
 
             // Display the score
-            document.getElementById('score').innerHTML = "Your score: " + score + "/5";
-        }
+            document.getElementById('score').innerHTML = "Your score: " + score + "/5";    }
     </script>
 
 {% endraw %}
