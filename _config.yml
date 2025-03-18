@@ -9,7 +9,24 @@ show_downloads: false
 
 include: ["_posts"]
 
-mathjax: true
+defaults:
+  - mathjax: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      social-share: true # add social media sharing buttons to all blog posts
+      mathjax: true
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+      mathjax: true
 
 ###############################################
 # --- List of links in the navigation bar --- #
