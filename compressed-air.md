@@ -15,6 +15,9 @@ Compressed air systems consist of two main areas:
 
 Improving compressed air efficiency is vital for reducing energy costs, minimizing environmental impact, and achieving sustainability targets.
 
+Check out this video detailing the main parts of a compressed air system
+
+{% include youtube.html id="lsqIZQ49-JA" %}
 ---
 
 ## Supply-Side Energy Saving Measures
@@ -85,6 +88,88 @@ Identify non-essential compressed air uses and replace them with more efficient 
 Examples include:
 - Electric blowers instead of compressed air for continuous cleaning.
 - Mechanical agitators instead of compressed air for liquid mixing.
+
+## CAGI Datasheets
+
+We use CAGI datasheets for a lot of the recommendations because they have a lot of good info about power draw and efficiency. They can usually be found by searching the compressor's model name. Take a look at this sample datasheet and follow along, identifying where all of the important metrics are located on it. 
+
+[Sample CAGI Datasheet](assets/CAGI_Sample.pdf)
+
+### Compressor Basics
+
+#### Compressor Type (e.g., Screw Compressor)
+- Describes the method the compressor uses to compress air.
+- **Screw Compressors** compress air using two rotating screws that trap air and push it through smaller spaces to increase pressure. Ideal for industrial applications requiring continuous airflow.
+
+#### Cooling Method (Air-cooled vs. Water-cooled)
+- **Air-cooled compressors** use ambient air to dissipate heat, suitable for environments with sufficient ventilation.
+- **Water-cooled compressors** rely on circulating water for cooling, beneficial in facilities with available water infrastructure or limited airflow.
+
+#### Number of Stages (Single vs. Multi-stage)
+- Indicates how many times air is compressed within the compressor.
+- **Single-stage compressors** compress air in one step, common in simpler systems or moderate pressure applications.
+- **Multi-stage compressors** compress air multiple times, improving efficiency, especially at high pressures.
+
+### Key Performance Metrics
+
+#### Full Load Operating Pressure
+- The pressure at which the compressor typically operates under full-load conditions, measured in psig (pounds per square inch gauge).
+- Determines if the compressor aligns with facility requirements and downstream equipment specifications.
+
+#### Capacity (Flow Rate - acfm)
+- Actual Cubic Feet per Minute (acfm) measures the actual airflow delivered by the compressor under specified conditions.
+- Directly influences how effectively the compressor meets the facility's air demand.
+
+#### Input Power (kW)
+- The electrical energy consumed by the compressor at a given operational state.
+- Critical for calculating operating costs and identifying energy-saving opportunities.
+
+#### Specific Power (kW/100 acfm)
+- Indicates compressor efficiency by showing how much power it takes to produce a standard quantity (100 acfm) of compressed air.
+- Lower values represent better efficiency, making it an essential metric for comparing compressors or assessing upgrades.
+
+### Motor and Fan Specifications
+
+#### Drive Motor Nominal Rating (hp or kW)
+- Indicates the rated power of the compressor's main motor.
+- Provides insight into energy demands and the scale of electrical infrastructure required for operation.
+
+#### Motor Nominal Efficiency (%)
+- Measures how effectively the electric motor converts electrical energy into mechanical energy.
+- Higher motor efficiency reduces energy waste and operational costs.
+
+#### Fan Motor Nominal Rating and Efficiency
+- Specifies the power and efficiency of the cooling fan motor, relevant for air-cooled compressors.
+- Efficient cooling fans lower total energy consumption and reduce the overall thermal load in the compressor environment.
+
+### Advanced Efficiency Indicators
+
+#### Total Package Input Power at Zero Flow (No Load Power)
+- The compressor's energy consumption when running without delivering air (idle state).
+- Lower no-load power indicates reduced energy wastage during low-demand periods.
+
+#### Isentropic Efficiency (%)
+- Compares the compressor's performance to an ideal (isentropic) compression process.
+- Higher percentages indicate a compressor closely approaching ideal operation, suggesting superior design and operational efficiency.
+
+
+Here's a video going a bit more in-depth about air compressor efficiency and why we use isentropic efficiency over other metrics. 
+
+{% include youtube.html id="jSifJ2fm5r4" %}
+
+## More Information
+
+Check out these two videos by Mike Muller going over compressed air systems in more detail: 
+
+{% include youtube.html id="v8hUlWksBic" %}
+
+{% include youtube.html id="7o1BlPfzY-Q" %}
+
+Here's a publication from the Department of Energy detailing several practices to improve compressed system performance: 
+
+[Improving Compressed Air System Performance](https://www.compressedairchallenge.org/data/sites/1/media/library/sourcebook/Improving_Compressed_Air-Sourcebook.pdf)
+
+
 
 ---
 
