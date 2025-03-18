@@ -96,8 +96,9 @@ You are conducting an energy assessment at a manufacturing facility. The facilit
 
 ### Observations from Site Visit:
 
-- One large air compressor (100 hp) continuously operates at **120 psi**.
+- One large air compressor continuously operates at **120 psi**.
 - The maximum pressure required by equipment is only **90 psi**.
+- The compressor requires 208V
 - Compressor intake air is drawn from the hot compressor room (~90°F).
 - Audible leaks were identified throughout distribution piping and at an old, unused packaging machine still connected to the system.
 - At **6 workstations**, employees regularly use compressed air guns rated at **14 cfm @ 100 psi** to clean workstations. Observations showed each worker used compressed air for **2 minutes per 30 minutes**.
@@ -114,6 +115,8 @@ Analyze the scenario and calculate the annual energy savings (in kWh) achievable
 
 **1. Turning off compressors during non-production warehouse-only hours (2:00 pm–4:00 pm).**  
 **2. Eliminating the inappropriate use of compressed air for workstation cleaning.**
+
+[Download Data](assets/data_for_iac_trimmed.csv)
 
 ##### Step-by-step Guidance:
 
@@ -136,6 +139,92 @@ Analyze the scenario and calculate the annual energy savings (in kWh) achievable
 
 2. **Calculate the annual energy savings (in kWh)** from eliminating compressed air workstation cleaning.
 
-3. **Discuss which measure provides greater savings** and why implementing both measures is beneficial.
+3. **Discuss which measure provides greater savings** and whether implementing both measures is beneficial or not. 
 
 ---
+# Quiz
+
+{% raw %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compressed Air Quiz</title>
+</head>
+<body>
+    <h2>Compressed Air Quiz</h2>
+
+    <!-- Question 1: kWh Savings from Shutting Down Compressor -->
+    <h3>1. What's the yearly kWh savings for shutting down the compressor? Round to the nearest kWh.</h3>
+    <input type="text" id="q1">
+
+    <!-- Question 2: kWh Savings from Stopping Compressed Air for Cleaning -->
+    <h3>2. What's the yearly savings for discontinuing the use of compressed air for cleaning? Round to the nearest kWh.</h3>
+    <input type="text" id="q2">
+
+    <!-- Question 3: Higher Implementation Cost -->
+    <h3>3. Which recommendation is likelier to have a higher implementation cost?</h3>
+    <input type="radio" name="q3" value="Shutdown"> Shut Down Compressor<br>
+    <input type="radio" name="q3" value="StopUsing"> Stop Using Compressed Air for Cleaning<br>
+
+    <!-- Question 4: Effect of Lowering Setpoint -->
+    <h3>4. If the compressor setpoint were lowered from 120 psi to 90 psi, how would this affect each of your recommendations?</h3>
+    <input type="radio" name="q4" value="DecreaseBoth"> Decrease savings for both<br>
+    <input type="radio" name="q4" value="IncreaseBoth"> Increase savings for both<br>
+    <input type="radio" name="q4" value="NoEffect"> No effect on savings<br>
+    <input type="radio" name="q4" value="DecreaseShutdownIncreaseCleaning"> Decrease savings for shutting down, increase savings for stopping cleaning<br>
+
+    <!-- Question 5: Most Common Compressor Type -->
+    <h3>5. What's the most common type of compressor seen on assessments?</h3>
+    <input type="radio" name="q5" value="RotaryScrew"> Rotary Screw<br>
+    <input type="radio" name="q5" value="Reciprocating"> Reciprocating<br>
+    <input type="radio" name="q5" value="Centrifugal"> Centrifugal<br>
+    <input type="radio" name="q5" value="Scroll"> Scroll<br>
+
+    <br><br>
+    <button onclick="checkAnswers()">Submit</button>
+
+    <h3 id="score"></h3>
+
+    <script>
+        function checkAnswers() {
+            let score = 0;
+
+            // Check Question 1 (kWh Savings from Shutting Down Compressor)
+            let q1Answer = document.getElementById('q1').value.trim();
+            if (q1Answer === "5481") {
+                score += 1;
+            }
+
+            // Check Question 2 (kWh Savings from Stopping Compressed Air for Cleaning)
+            let q2Answer = document.getElementById('q2').value.trim();
+            if (q2Answer === "28") {
+                score += 1;
+            }
+
+            // Check Question 3 (Higher Implementation Cost)
+            let q3Answer = document.querySelector('input[name="q3"]:checked');
+            if (q3Answer && q3Answer.value === "Shutdown") {
+                score += 1;
+            }
+
+            // Check Question 4 (Effect of Lowering Setpoint)
+            let q4Answer = document.querySelector('input[name="q4"]:checked');
+            if (q4Answer && q4Answer.value === "DecreaseBoth") {
+                score += 1;
+            }
+
+            // Check Question 5 (Most Common Compressor Type)
+            let q5Answer = document.querySelector('input[name="q5"]:checked');
+            if (q5Answer && q5Answer.value === "RotaryScrew") {
+                score += 1;
+            }
+
+            // Display the score
+            document.getElementById('score').innerHTML = "Your score: " + score + "/5";
+        }
+    </script>
+
+{% endraw %}
