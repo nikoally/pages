@@ -37,6 +37,42 @@ Premium motors typically have:
 - Improved rotor and stator geometry (minimizing eddy current and hysteresis losses)
 - Higher-quality bearings (reducing friction losses)
 
+## Reading Nameplates
+
+There's two main things we want to know when looking at a motor: Power and Efficiency. Both of these are on the nameplate, so it's important you know what you're looking at. Take a look at each of the nameplates below and identify the power (in hp) and efficiency. 
+
+![Motor Nameplate Simple](/assets/nameplate-simple.png)
+
+
+![Motor Nameplate NEMA](/assets/nameplate-simple2.png)
+
+### NEMA Efficiency Ratings
+
+A lot of the time, when you're looking at a motor nameplate, you'll see the efficiency as a percent, like in the examples above. However, sometimes you'll see a letter instead. When this happens, look up the actual efficincy in this table:
+
+
+| NEMA Letter Index | Nominal Efficiency | Minimum Efficiency |
+|-------------------|-------------------|-------------------|
+| A               |                   | 95.0              |
+| B               | 95.0              | 94.1              |
+| C               | 94.1              | 93.0              |
+| D               | 93.0              | 91.7              |
+| E               | 91.7              | 90.2              |
+| F               | 90.2              | 88.5              |
+| G               | 88.5              | 86.5              |
+| H               | 86.5              | 84.0              |
+| K               | 84.0              | 81.5              |
+| L               | 81.5              | 78.5              |
+| M               | 78.5              | 75.5              |
+| N               | 75.5              | 72.0              |
+| P               | 72.0              | 68.0              |
+| R               | 68.0              | 64.0              |
+| S               | 64.0              | 59.5              |
+| T               | 59.5              | 55.0              |
+| U               | 55.0              | 50.5              |
+| V               | 50.5              | 46.0              |
+| W               |                   | 46.0              |
+
 
 ## Sources of Motor Inefficiencies
 
