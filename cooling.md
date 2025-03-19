@@ -98,22 +98,19 @@ A manufacturing plant operates a set of four Carrier chillers, three of which we
 Using the following provided data, calculate the annual energy savings (kWh) from upgrading the older chillers.
 
 Given Data:
-	•	Chiller capacity = 1,250 tons
-	•	Efficiency of degraded chillers = 0.90 kW/ton
-	•	Efficiency of new chillers = 0.60 kW/ton
-	•	Annual runtime of older chillers = 8,760 hours × 54.57% = 4,780.33 hours
-	•	Degradation factor formula:
-\\[\text{Efficiency}{\text{Degraded}} = \frac{\text{Efficiency}{\text{Original}}}{(1 - 0.01)^{\text{Age}}}\\]
+	- Chiller capacity = 1,250 tons
+	- Efficiency of degraded chillers = 0.90 kW/ton
+	- Efficiency of new chillers = 0.60 kW/ton
+	- Annual runtime of older chillers = 8,760 hours × 54.57% = 4,780.33 hours
+	- Degradation factor formula:
+\\[\text{Efficiency}_{\text{Degraded}} = \frac{\text{Efficiency}_{\text{Original}}}{(1 - 0.01)^{\text{Age}}}\\]
 
 Tasks:
 	1.	Recalculate the degraded efficiency of the older chillers using the formula above, assuming an original efficiency of 0.67 kW/ton and an age of 29 years.
 	2.	Calculate the annual energy savings in kWh using the formula:
 \\[\text{Consumption Savings} = \text{Capacity} \times (\text{Efficiency}{\text{Degraded}} - \text{Efficiency}{\text{New}}) \times \text{Annual Runtime}\\]
-	3.	Determine the demand savings in kW using the formula:
-\\[\text{Demand Savings} = \frac{\text{Consumption Savings}}{\text{Annual Runtime}} \times 12\\]
-Assume a conservative estimate using an annual runtime of 8,760 hours.
 
-
+{% raw %}
     <h2>Cooling Towers & Chillers Quiz</h2>
 
     <h3>1. What is the primary function of a cooling tower in an HVAC or industrial system?</h3>
@@ -187,3 +184,5 @@ Assume a conservative estimate using an annual runtime of 8,760 hours.
             document.getElementById('score').innerHTML = "Your score: " + score + "/5";
         }
     </script>
+
+    {% endraw %}
