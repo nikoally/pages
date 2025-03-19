@@ -9,7 +9,7 @@ Motors consume approximately 65% of industrial electricity, translating to signi
 
 Before we get into the more technical details, check out this Electrical Engineering for Energy Assessments Primer to make sure you understant the necessary background information. 
 
-[Electrical Engineering for Energy Assessments](2025/03/18/EEPrimer.html)
+[Electrical Engineering for Energy Assessments](https://www.ndbailey.com/2025/03/18/EEPrimer.html)
 
 ## Motor Types and Operating Principles
 
@@ -114,15 +114,16 @@ A lot of the time, when you're looking at a motor nameplate, you'll see the effi
 ## Advanced Motor System Optimization
 
 **Variable Frequency Drives (VFDs):**
-- VFDs adjust motor speed according to real-time load demands, significantly reducing energy consumption in variable-load scenarios.
+VFDs adjust motor speed according to real-time load demands, significantly reducing energy consumption in variable-load scenarios. They save energy by intelligently matching motor speeds to their actual load requirements. Traditional motors typically run at a constant speed, regardless of how much work is required, causing unnecessary energy consumption. VFDs address this issue by controlling the motor’s frequency and voltage, allowing it to operate precisely at the speed needed. Because energy usage in many applications, such as pumps, fans, and compressors, is proportional to the cube of motor speed, even minor reductions in speed can greatly reduce energy consumption. This results in significant cost savings, improved system efficiency, and reduced environmental impact.
 
 Check out this video if you want to learn more about how VFDs work:
 
 {% include youtube.html id="yEPe7RDtkgo" %}
 
 **System Design Optimization:**
-- Correct motor sizing to match the application load, avoiding oversized motors.
-- Implement efficient drive systems and coupling mechanisms to minimize transmission losses.
+Proper motor sizing saves energy by ensuring motors operate close to their optimal load and efficiency levels. When motors are oversized, they consistently operate below their rated capacity, leading to lower efficiency, wasted electrical energy, and excess heat production. Correctly sized motors avoid these problems by closely matching the motor’s capacity to the load requirements, enabling them to run efficiently at or near full load. Proper motor sizing reduces unnecessary electricity usage, extends equipment lifespan, lowers maintenance costs, and contributes to improved overall energy efficiency in industrial and commercial settings.
+
+Furthermore, efficient drive systems, such as gearboxes and belt drives, contribute significantly to energy savings by effectively transmitting mechanical power from motors to their loads. High-quality gearboxes reduce energy loss through optimized gear ratios and precision manufacturing, minimizing friction and heat generation. Similarly, modern belt drives, including synchronous (toothed) belts, offer improved efficiency by reducing slippage and frictional losses compared to older, less efficient drive systems. Selecting and properly maintaining efficient drive components ensures minimal power loss, improved reliability, reduced operating costs, and extended equipment life. 
 
 ## More Resources
 
