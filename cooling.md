@@ -103,12 +103,14 @@ Given Data:
 	- Efficiency of new chillers = 0.60 kW/ton
 	- Annual runtime of older chillers = 8,760 hours × 54.57% = 4,780.33 hours
 	- Degradation factor formula:
+    
 \\[\text{Efficiency}_{\text{Degraded}} = \frac{\text{Efficiency}_{\text{Original}}}{(1 - 0.01)^{\text{Age}}}\\]
 
 Tasks:
 	1.	Recalculate the degraded efficiency of the older chillers using the formula above, assuming an original efficiency of 0.67 kW/ton and an age of 29 years.
-    
+
 	2.	Calculate the annual energy savings in kWh using the formula:
+
 \\[\text{Consumption Savings} = \text{Capacity} \times (\text{Efficiency}{\text{Degraded}} - \text{Efficiency}{\text{New}}) \times \text{Annual Runtime}\\]
 
 {% raw %}

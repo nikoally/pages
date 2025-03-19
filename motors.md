@@ -1,3 +1,12 @@
+---
+layout: page
+title: Motors
+permalink: itac-training/motors/
+---
+
+
+
+
 Check out this video if you want to learn more about how three-phase power works:
 
 {% include youtube.html id="c9gm_NL7KyE" %}
