@@ -107,14 +107,15 @@ Given Data:
 \\[\text{Efficiency}_{\text{Degraded}} = \frac{\text{Efficiency}_{\text{Original}}}{(1 - 0.01)^{\text{Age}}}\\]
 
 Tasks:
-	1. Recalculate the degraded efficiency of the older chillers using the formula above, assuming an original efficiency of 0.67 kW/ton and an age of 29 years.
 
-	2. Calculate the annual energy savings in kWh using the formula:
+1. Recalculate the degraded efficiency of the older chillers using the formula above, assuming an original efficiency of 0.67 kW/ton and an age of 29 years.
+
+2. Calculate the annual energy savings in kWh using the formula:
 
 \\[\text{Consumption Savings} = \text{Capacity} \times (\text{Efficiency}{\text{Degraded}} - \text{Efficiency}{\text{New}}) \times \text{Annual Runtime}\\]
 
 {% raw %}
-<h2>Cooling Towers & Chillers Quiz</h2>
+<h2>Quiz</h2>
 
 <h3>1. What is the primary function of a cooling tower in an HVAC or industrial system?</h3>
 <input type="radio" name="q1" value="a"> a) Increase air temperature<br>
