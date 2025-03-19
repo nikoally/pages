@@ -189,14 +189,9 @@ You are conducting an energy assessment at a manufacturing facility. The facilit
 - At **6 workstations**, employees regularly use compressed air guns rated at **14 cfm @ 100 psi** to clean workstations. Observations showed each worker used compressed air for **2 minutes per 30 minutes**.
 - Previous calculations have established that each **CCF** (100 cubic feet) of compressed air consumes **0.24 kWh**.
 
-
-### Data Analysis Exercise
-
 You have been provided two weeks of compressor CT (current transducer) data.
 
-#### Task:
-
-Analyze the scenario and calculate the annual energy savings (in kWh) achievable by:
+Task: Analyze the scenario and calculate the annual energy savings (in kWh) achievable by:
 
 **1. Turning off compressors during non-production warehouse-only hours (2:00 pm–4:00 pm).**  
 **2. Eliminating the inappropriate use of compressed air for workstation cleaning.**
@@ -226,79 +221,83 @@ Analyze the scenario and calculate the annual energy savings (in kWh) achievable
 
 3. **Discuss which measure provides greater savings** and whether implementing both measures is beneficial or not. 
 
+If you get stuck, check out this page for a bit more guidance: 
+
+[Compressed Air Activity Help](/compressed-air-help/)
+
 ---
 
 ## Quiz
 
 {% raw %}
-    <!-- Question 1: kWh Savings from Shutting Down Compressor -->
-    <h3>1. What's the yearly kWh savings for shutting down the compressor? Round to the nearest kWh.</h3>
-    <input type="text" id="q1">
+<!-- Question 1: kWh Savings from Shutting Down Compressor -->
+<h3>1. What's the yearly kWh savings for shutting down the compressor? Round to the nearest kWh.</h3>
+<input type="text" id="q1">
 
-    <!-- Question 2: kWh Savings from Stopping Compressed Air for Cleaning -->
-    <h3>2. What's the yearly savings for discontinuing the use of compressed air for cleaning? Round to the nearest kWh.</h3>
-    <input type="text" id="q2">
+<!-- Question 2: kWh Savings from Stopping Compressed Air for Cleaning -->
+<h3>2. What's the yearly savings for discontinuing the use of compressed air for cleaning? Round to the nearest kWh.</h3>
+<input type="text" id="q2">
 
-    <!-- Question 3: Higher Implementation Cost -->
-    <h3>3. Which recommendation is likelier to have a higher implementation cost?</h3>
-    <input type="radio" name="q3" value="Shutdown"> Shut Down Compressor<br>
-    <input type="radio" name="q3" value="StopUsing"> Stop Using Compressed Air for Cleaning<br>
+<!-- Question 3: Higher Implementation Cost -->
+<h3>3. Which recommendation is likelier to have a higher implementation cost?</h3>
+<input type="radio" name="q3" value="Shutdown"> Shut Down Compressor<br>
+<input type="radio" name="q3" value="StopUsing"> Stop Using Compressed Air for Cleaning<br>
 
-    <!-- Question 4: Effect of Lowering Setpoint -->
-    <h3>4. If the compressor setpoint were lowered from 120 psi to 90 psi, how would this affect each of your recommendations?</h3>
-    <input type="radio" name="q4" value="DecreaseBoth"> Decrease savings for both<br>
-    <input type="radio" name="q4" value="IncreaseBoth"> Increase savings for both<br>
-    <input type="radio" name="q4" value="NoEffect"> No effect on savings<br>
-    <input type="radio" name="q4" value="DecreaseShutdownIncreaseCleaning"> Decrease savings for shutting down, increase savings for stopping cleaning<br>
+<!-- Question 4: Effect of Lowering Setpoint -->
+<h3>4. If the compressor setpoint were lowered from 120 psi to 90 psi, how would this affect each of your recommendations?</h3>
+<input type="radio" name="q4" value="DecreaseBoth"> Decrease savings for both<br>
+<input type="radio" name="q4" value="IncreaseBoth"> Increase savings for both<br>
+<input type="radio" name="q4" value="NoEffect"> No effect on savings<br>
+<input type="radio" name="q4" value="DecreaseShutdownIncreaseCleaning"> Decrease savings for shutting down, increase savings for stopping cleaning<br>
 
-    <!-- Question 5: Most Common Compressor Type -->
-    <h3>5. What's the most common type of compressor seen on assessments?</h3>
-    <input type="radio" name="q5" value="RotaryScrew"> Rotary Screw<br>
-    <input type="radio" name="q5" value="Reciprocating"> Reciprocating<br>
-    <input type="radio" name="q5" value="Centrifugal"> Centrifugal<br>
-    <input type="radio" name="q5" value="Scroll"> Scroll<br>
+<!-- Question 5: Most Common Compressor Type -->
+<h3>5. What's the most common type of compressor seen on assessments?</h3>
+<input type="radio" name="q5" value="RotaryScrew"> Rotary Screw<br>
+<input type="radio" name="q5" value="Reciprocating"> Reciprocating<br>
+<input type="radio" name="q5" value="Centrifugal"> Centrifugal<br>
+<input type="radio" name="q5" value="Scroll"> Scroll<br>
 
-    <br><br>
-    <button onclick="checkAnswers()">Submit</button>
+<br><br>
+<button onclick="checkAnswers()">Submit</button>
 
-    <h3 id="score"></h3>
+<h3 id="score"></h3>
 
-    <script>
-        function checkAnswers() {
-            let score = 0;
+<script>
+    function checkAnswers() {
+        let score = 0;
 
-            // Check Question 1 (kWh Savings from Shutting Down Compressor)
-            let q1Answer = document.getElementById('q1').value.trim();
-            if (Math.abs(q1Answer - 1827) / 1827 <= 0.1) {
-                score += 1;
-            }
+        // Check Question 1 (kWh Savings from Shutting Down Compressor)
+        let q1Answer = document.getElementById('q1').value.trim();
+        if (Math.abs(q1Answer - 1827) / 1827 <= 0.1) {
+            score += 1;
+        }
 
-            // Check Question 2 (kWh Savings from Stopping Compressed Air for Cleaning)
-            let q2Answer = document.getElementById('q2').value.trim();
-            if (Math.abs(q2Answer - 28) / 28 <= 0.1) {
-                score += 1;
-            }
+        // Check Question 2 (kWh Savings from Stopping Compressed Air for Cleaning)
+        let q2Answer = document.getElementById('q2').value.trim();
+        if (Math.abs(q2Answer - 28) / 28 <= 0.1) {
+            score += 1;
+        }
 
-            // Check Question 3 (Higher Implementation Cost)
-            let q3Answer = document.querySelector('input[name="q3"]:checked');
-            if (q3Answer && q3Answer.value === "Shutdown") {
-                score += 1;
-            }
+        // Check Question 3 (Higher Implementation Cost)
+        let q3Answer = document.querySelector('input[name="q3"]:checked');
+        if (q3Answer && q3Answer.value === "Shutdown") {
+            score += 1;
+        }
 
-            // Check Question 4 (Effect of Lowering Setpoint)
-            let q4Answer = document.querySelector('input[name="q4"]:checked');
-            if (q4Answer && q4Answer.value === "DecreaseBoth") {
-                score += 1;
-            }
+        // Check Question 4 (Effect of Lowering Setpoint)
+        let q4Answer = document.querySelector('input[name="q4"]:checked');
+        if (q4Answer && q4Answer.value === "DecreaseBoth") {
+            score += 1;
+        }
 
-            // Check Question 5 (Most Common Compressor Type)
-            let q5Answer = document.querySelector('input[name="q5"]:checked');
-            if (q5Answer && q5Answer.value === "RotaryScrew") {
-                score += 1;
-            }
+        // Check Question 5 (Most Common Compressor Type)
+        let q5Answer = document.querySelector('input[name="q5"]:checked');
+        if (q5Answer && q5Answer.value === "RotaryScrew") {
+            score += 1;
+        }
 
-            // Display the score
-            document.getElementById('score').innerHTML = "Your score: " + score + "/5";    }
-    </script>
+        // Display the score
+        document.getElementById('score').innerHTML = "Your score: " + score + "/5";    }
+</script>
 
 {% endraw %}

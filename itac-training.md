@@ -26,3 +26,8 @@ Welcome to the Industrial Training Assessment Center Program. These training mod
 - Demonstrated skills in technical report writing, data-driven decision-making, and client interaction.
 - Team-based project experience solving real-world industrial energy problems.
 - Contribution to measurable cost savings and sustainability improvements for industry partners.
+
+---
+
+## Getting Started
+
