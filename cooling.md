@@ -42,9 +42,13 @@ Chillers are refrigeration systems that remove heat from a process fluid or spac
 
 ### More Resources
 
-Check out this video by Mike Muller going in-depth about chillers. 
+Check out this video by Mike Muller going in-depth about chillers:
 
 {% include youtube.html id="MIptjpNytso" %}
+
+Check out this video about how chillers operate: 
+
+{% include youtube.html id="gYcNDT1d30k" %}
 
 ## Cooling Towers
 
@@ -76,13 +80,11 @@ Check out this video discussing how they work on a high-level:
 
 ### More Resources
 
-Check out this video by Mike Muller going in-depth about chillers. 
+Check out this video by Mike Muller discussing cooling towers: 
 
 {% include youtube.html id="4EVJHPnAHEo" %}
 
-Check out this video about how chillers operate: 
 
-{% include youtube.html id="gYcNDT1d30k" %}
 
 
 
