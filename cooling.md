@@ -107,6 +107,7 @@ Given Data:
 
 Tasks:
 	1.	Recalculate the degraded efficiency of the older chillers using the formula above, assuming an original efficiency of 0.67 kW/ton and an age of 29 years.
+    
 	2.	Calculate the annual energy savings in kWh using the formula:
 \\[\text{Consumption Savings} = \text{Capacity} \times (\text{Efficiency}{\text{Degraded}} - \text{Efficiency}{\text{New}}) \times \text{Annual Runtime}\\]
 
