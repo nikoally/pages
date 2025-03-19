@@ -228,10 +228,9 @@ Analyze the scenario and calculate the annual energy savings (in kWh) achievable
 
 ---
 
-{% raw %}
-<body>
-    <h2>Compressed Air Quiz</h2>
+## Quiz
 
+{% raw %}
     <!-- Question 1: kWh Savings from Shutting Down Compressor -->
     <h3>1. What's the yearly kWh savings for shutting down the compressor? Round to the nearest kWh.</h3>
     <input type="text" id="q1">
