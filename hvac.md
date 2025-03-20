@@ -73,6 +73,12 @@ And a few about RTUs:
 - Replace aging RTUs
 - Use properly sized equipment
 
+## More Resources
+
+A lot of these HVAC recommendations need to be simulated as there aren't easy equations we can apply. The most common software for doing this is EnergyPlus. While learning the software is beyond the scope for now, this is an excellent playlist for learning later on. 
+
+[EnergyPlus Playlist](https://www.youtube.com/playlist?list=PLt8euQ9WuNBcGVJrrWRqlAGmE7HnoQXHc)
+
 
 ## Activity
 
@@ -91,11 +97,11 @@ An energy assessment team recently conducted an audit and identified multiple HV
 
 For part 1, use the CT program savings document and the dataset provided below. For part 2, search for a methodology to use and be prepared to defend your choice.  
 
+To determine the kWH used for AC, look at the difference in usage between the cooling months (highlighted) and the heating months. I'd recommend computing the difference between the monthly kWh usage for each cooling months and the average heating month. You can use the same procedure for natural gas, but flipped. 
+
+
 [CT Program Savings Document](https://energizect.com/sites/default/files/documents/Final2023CTProgramSavingsDocument_030123.pdf)
 
 [Site Data](assets/HVAC-activity.xlsx)
 
-### Guidance for Part 1
-1. To determine the kWH used for AC, look at the difference in usage between the cooling months (highlighted) and the heating months. I'd recommend computing the difference between the monthly kWh usage for each cooling months and the average heating month. 
-2. You can use the same procedure for natural gas, but flipped. 
 

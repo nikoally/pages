@@ -31,3 +31,39 @@ Welcome to the Industrial Training Assessment Center Program. These training mod
 
 ## Getting Started
 
+### Recommended Progression
+
+{% raw %}
+<body>
+    <pre><code class="language-mermaid">
+        graph TD
+        A[Introduction] --> B[Utility Analysis]
+        B --> C[Motors]
+        C --> D[Cooling Systems]
+        C --> E[Compressed Air]
+        D --> F[HVAC]
+    </code></pre>
+
+    <div class="mermaid">
+        graph TD
+        A[Introduction] --> B[Utility Analysis]
+        B --> C[Motors]
+        C --> D[Cooling Systems]
+        C --> E[Compressed Air]
+        D --> F[HVAC]
+    </div>
+
+</body>
+<script>
+    var config = {
+        startOnLoad: true,
+        theme: 'forest',
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+{% endraw %}
