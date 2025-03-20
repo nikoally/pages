@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HVAC
-permalink: itac-training/hvac
+permalink: itac-training/hvac/
 ---
 
 ## Understanding HVAC Systems
