@@ -176,83 +176,82 @@ Each motor will also take 2 hours to install. The installer's labor is $50/hr.
 
 {% raw %}
 
-body>
-    <h2>Motors Quiz</h2>
+<h2>Motors Quiz</h2>
 
-    <!-- Question 1: Single-Phase Motor Characteristics -->
-    <h3>1. Which of the following statements about single-phase motors is TRUE?</h3>
-    <input type="radio" name="q1" value="A"> A. They operate on three AC waveforms, providing smooth torque output<br>
-    <input type="radio" name="q1" value="B"> B. They are ideal for heavy industrial loads<br>
-    <input type="radio" name="q1" value="C"> C. They exhibit pulsating torque and are suitable for small applications<br>
-    <input type="radio" name="q1" value="D"> D. They are more efficient than three-phase motors<br>
+<!-- Question 1: Single-Phase Motor Characteristics -->
+<h3>1. Which of the following statements about single-phase motors is TRUE?</h3>
+<input type="radio" name="q1" value="A"> A. They operate on three AC waveforms, providing smooth torque output<br>
+<input type="radio" name="q1" value="B"> B. They are ideal for heavy industrial loads<br>
+<input type="radio" name="q1" value="C"> C. They exhibit pulsating torque and are suitable for small applications<br>
+<input type="radio" name="q1" value="D"> D. They are more efficient than three-phase motors<br>
 
-    <!-- Question 2: Premium Motor Cost Factors -->
-    <h3>2. Which is <u>not</u> a reason why premium efficiency motors are more expensive than EPAct-compliant motors?</h3>
-    <input type="radio" name="q2" value="A"> A. Use of higher-grade copper windings<br>
-    <input type="radio" name="q2" value="B"> B. Optimized rotor and stator design<br>
-    <input type="radio" name="q2" value="C"> C. Improved bearings<br>
-    <input type="radio" name="q2" value="D"> D. Energy Star charges expensive licensing fees<br>
+<!-- Question 2: Premium Motor Cost Factors -->
+<h3>2. Which is <u>not</u> a reason why premium efficiency motors are more expensive than EPAct-compliant motors?</h3>
+<input type="radio" name="q2" value="A"> A. Use of higher-grade copper windings<br>
+<input type="radio" name="q2" value="B"> B. Optimized rotor and stator design<br>
+<input type="radio" name="q2" value="C"> C. Improved bearings<br>
+<input type="radio" name="q2" value="D"> D. Energy Star charges expensive licensing fees<br>
 
-    <!-- Question 3: NEMA Efficiency Letter -->
-    <h3>3. According to the NEMA table, what is the nominal efficiency of a motor with an index letter of “C”?</h3>
-    <input type="radio" name="q3" value="A"> A. 93.0%<br>
-    <input type="radio" name="q3" value="B"> B. 94.1%<br>
-    <input type="radio" name="q3" value="C"> C. 95.0%<br>
-    <input type="radio" name="q3" value="D"> D. 90.2%<br>
+<!-- Question 3: NEMA Efficiency Letter -->
+<h3>3. According to the NEMA table, what is the nominal efficiency of a motor with an index letter of “C”?</h3>
+<input type="radio" name="q3" value="A"> A. 93.0%<br>
+<input type="radio" name="q3" value="B"> B. 94.1%<br>
+<input type="radio" name="q3" value="C"> C. 95.0%<br>
+<input type="radio" name="q3" value="D"> D. 90.2%<br>
 
-    <!-- Question 4: Best Investment Option -->
-    <h3>4. Which of different efficiency options represents the best investment at 2500 hours runtime from the activity?</h3>
-    <input type="radio" name="q4" value="80%"> 80%<br>
-    <input type="radio" name="q4" value="85%"> 85%<br>
-    <input type="radio" name="q4" value="90%"> 90%<br>
-    <input type="radio" name="q4" value="93%"> 93%<br>
+<!-- Question 4: Best Investment Option -->
+<h3>4. Which of different efficiency options represents the best investment at 2500 hours runtime from the activity?</h3>
+<input type="radio" name="q4" value="80%"> 80%<br>
+<input type="radio" name="q4" value="85%"> 85%<br>
+<input type="radio" name="q4" value="90%"> 90%<br>
+<input type="radio" name="q4" value="93%"> 93%<br>
 
-    <!-- Question 5: Payback Period Calculation -->
-    <h3>5. What's the payback period for upgrading to a 90% efficient motor running for 4000 hours/year? (Round to the nearest tenth)</h3>
-    <input type="text" id="q5">
+<!-- Question 5: Payback Period Calculation -->
+<h3>5. What's the payback period for upgrading to a 90% efficient motor running for 4000 hours/year? (Round to the nearest tenth)</h3>
+<input type="text" id="q5">
 
-    <br><br>
-    <button onclick="checkAnswers()">Submit</button>
+<br><br>
+<button onclick="checkAnswers()">Submit</button>
 
-    <h3 id="score"></h3>
+<h3 id="score"></h3>
 
-    <script>
-        function checkAnswers() {
-            let score = 0;
+<script>
+    function checkAnswers() {
+        let score = 0;
 
-            // Question 1: Single-phase motor
-            let q1 = document.querySelector('input[name="q1"]:checked');
-            if (q1 && q1.value === "C") {
-                score += 1;
-            }
-
-            // Question 2: Cost factor
-            let q2 = document.querySelector('input[name="q2"]:checked');
-            if (q2 && q2.value === "D") {
-                score += 1;
-            }
-
-            // Question 3: NEMA efficiency
-            let q3 = document.querySelector('input[name="q3"]:checked');
-            if (q3 && q3.value === "B") {
-                score += 1;
-            }
-
-            // Question 4: Best investment
-            let q4 = document.querySelector('input[name="q4"]:checked');
-            if (q4 && q4.value === "93%") {
-                score += 1;
-            }
-
-            // Question 5: Payback period
-            let q5 = document.getElementById('q5').value.trim();
-            if (q5 === "1.5") {
-                score += 1;
-            }
-
-            document.getElementById('score').innerHTML = "Your score: " + score + "/5";
+        // Question 1: Single-phase motor
+        let q1 = document.querySelector('input[name="q1"]:checked');
+        if (q1 && q1.value === "C") {
+            score += 1;
         }
-    </script>
-</body>
+
+        // Question 2: Cost factor
+        let q2 = document.querySelector('input[name="q2"]:checked');
+        if (q2 && q2.value === "D") {
+            score += 1;
+        }
+
+        // Question 3: NEMA efficiency
+        let q3 = document.querySelector('input[name="q3"]:checked');
+        if (q3 && q3.value === "B") {
+            score += 1;
+        }
+
+        // Question 4: Best investment
+        let q4 = document.querySelector('input[name="q4"]:checked');
+        if (q4 && q4.value === "93%") {
+            score += 1;
+        }
+
+        // Question 5: Payback period
+        let q5 = document.getElementById('q5').value.trim();
+        if (q5 === "1.5") {
+            score += 1;
+        }
+
+        document.getElementById('score').innerHTML = "Your score: " + score + "/5";
+    }
+</script>
+
 
 {% endraw %}
