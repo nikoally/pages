@@ -140,16 +140,16 @@ A manufacturing facility is operating a motor with a nominal efficiency of 80%. 
 You are tasked with evaluating the annual energy consumption and electricity cost for the current motor and potential replacement motors with nominal efficiencies of 85%, 90%, and 93%.
 
 Given:
-	•	Motor Load = 50 hp
-	•	1 hp = 0.746 kW
-	•	Motor Runtime = 2500 hours/year
-	•	Electricity Cost = $0.12/kWh
+- Motor Load = 50 hp
+- 1 hp = 0.746 kW
+- Motor Runtime = 2500 hours/year
+- Electricity Cost = $0.12/kWh
 
 Instructions:
-	1.	Calculate the input power required for each motor (in kW).
-	2.	Calculate the annual energy consumption (kWh).
-	3.	Calculate the annual electricity cost.
-	4.	Determine the energy and cost savings compared to the current 80% efficient motor.
+1.	Calculate the input power required for each motor (in kW).
+2.	Calculate the annual energy consumption (kWh).
+3.	Calculate the annual electricity cost.
+4.	Determine the energy and cost savings compared to the current 80% efficient motor.
 
 ### Part 2: Runtime Sensitivity at 90% Efficiency
 
@@ -175,8 +175,6 @@ Each motor will also take 2 hours to install. The installer's labor is $50/hr.
 ## Quiz
 
 {% raw %}
-
-<h2>Motors Quiz</h2>
 
 <!-- Question 1: Single-Phase Motor Characteristics -->
 <h3>1. Which of the following statements about single-phase motors is TRUE?</h3>

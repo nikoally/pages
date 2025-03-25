@@ -35,7 +35,8 @@ navbar-links:
   ITAC Training:
     - Introduction: "/itac-training/"
     - Utility Analysis: "/itac-training/utility-analysis/"
+    - Motors: "/itac-training/motors/"
     - Compressed Air: "/itac-training/compressed-air/"
     - Cooling Systems: "/itac-training/cooling/"
-    - Motors: "/itac-training/motors/"
+    - Boilers: "/itac-training/boilers/"
     - HVAC: "/itac-training/hvac/"
