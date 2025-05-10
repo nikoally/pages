@@ -98,13 +98,13 @@ A manufacturing plant operates a set of four Carrier chillers, three of which we
 Using the following provided data, calculate the annual energy savings (kWh) from upgrading the older chillers.
 
 Given Data:
-	- Chiller capacity = 1,250 tons
-	- Efficiency of degraded chillers = 0.90 kW/ton
-	- Efficiency of new chillers = 0.60 kW/ton
-	- Annual runtime of older chillers = 8,760 hours × 54.57% = 4,780.33 hours
-	- Degradation factor formula:
+- Chiller capacity = 1,250 tons
+- Efficiency of degraded chillers = 0.90 kW/ton
+- Efficiency of new chillers = 0.60 kW/ton
+- Annual runtime of older chillers = 8,760 hours × 54.57% = 4,780.33 hours
 
-\\[\text{Efficiency}_{\text{Degraded}} = \frac{\text{Efficiency}_{\text{Original}}}{(1 - 0.01)^{\text{Age}}}\\]
+
+\\[ \text{Eff}_{\text{deg}} = \frac{\text{Eff}_{\text{orig}}}{(1 - 0.01)^{\text{Age}}} \\]
 
 Tasks:
 

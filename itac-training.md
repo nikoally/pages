@@ -28,7 +28,3 @@ Welcome to the Industrial Training Assessment Center Program. These training mod
 - Contribution to measurable cost savings and sustainability improvements for industry partners.
 
 ---
-
-## Getting Started
-
-### Recommended Progression
