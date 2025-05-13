@@ -100,74 +100,9 @@ I use eversource here as an example because that's what the majority of our clie
 
 ## Activity
 
-Using the data at the link below, conduct a utility analysis (I did step 1 for you). Then, calculate the average kW, kWh, and MMbtu rates. Note that the data provided is in CCF, so you will have to convert units. Finally, identify which recommendations would be relevant for this company and identify the corresponding ARC codes. 
+Using the data at the link below, conduct a utility analysis (I did step 1 for you). Then, calculate the average consumption and demand rates. Finally, identify which recommendations would be relevant for this company and identify the corresponding ARC codes. 
 
 
 [Download Excel File](assets/utility-analysis-activity.xlsx)
 
 [Download the ARC Manual](https://iac.university/file/technical/ARC%20List%20-%20V21.1.pdf)
-
-## Quiz
-
-{% raw %}
-
-<!-- Question 1: kWh Rate -->
-<h4>1. What's the kWh rate for the company in the activity? Provide your answer without the dollar sign and rounded to the nearest cent.</h4>
-<input type="text" id="q1">
-
-<!-- Question 2: kW Rate -->
-<h4>2. What's the kW rate for the company in the activity?</h4>
-<input type="text" id="q2">
-
-<!-- Question 3: High kW Rate -->
-<h4>3. What's the main reason the kW rate is so high?</h4>
-<input type="radio" name="q3" value="a"> a. They operate in a place where electricity is expensive<br>
-<input type="radio" name="q3" value="b"> b. They have a low power factor<br>
-<input type="radio" name="q3" value="c"> c. They are on an incorrect rate tariff<br>
-<input type="radio" name="q3" value="d"> d. None of the above<br>
-
-<!-- Question 4: ARC Code -->
-<h4>4. Which ARC code isn't applicable for the company?</h4>
-<input type="radio" name="q4" value="a"> a. 2.3212<br>
-<input type="radio" name="q4" value="b"> b. 2.8121<br>
-<input type="radio" name="q4" value="c"> c. 2.8123<br>
-
-<br>
-<button onclick="checkAnswers()">Submit</button>
-
-<h4 id="score"></h4>
-
-<script>
-    function checkAnswers() {
-        let score = 0;
-
-        // Check Question 1 (kWh Rate)
-        let q1Answer = document.getElementById('q1').value.trim();
-        if (q1Answer === "0.11") {
-            score += 1;
-        }
-
-        // Check Question 2 (kW Rate)
-        let q2Answer = document.getElementById('q2').value.trim();
-        if (q2Answer === "27.93") {
-            score += 1;
-        }
-
-        // Check Question 3 (High kW Rate)
-        let q3Answer = document.querySelector('input[name="q3"]:checked');
-        if (q3Answer && q3Answer.value === "b") {
-            score += 1;
-        }
-
-        // Check Question 4 (ARC Code)
-        let q4Answer = document.querySelector('input[name="q4"]:checked');
-        if (q4Answer && q4Answer.value === "c") {
-            score += 1;
-        }
-
-        // Display the score
-        document.getElementById('score').innerHTML = "Your score: " + score + "/4";
-    }
-</script>
-{% endraw %}
-
