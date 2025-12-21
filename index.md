@@ -1,23 +1,22 @@
 ---
 title: "Nicholas Bailey"
-subtitle: "Engineer | Researcher | Data Enthusiast"
 ---
 
-I'm a **Dual-degree Engineering and Business student** with a strong interest in **machine learning applications in engineering**, **energy systems**, and **data-driven decision-making**.
+I'm a **dual-degree senior at UConn** studying Management and Engineering for Manufacturing alongside Applied Mathematics (GPA: 3.948, University Scholar). My research focuses on **physics-informed machine learning for manufacturing systems**, **stochastic optimization in energy efficiency**, and **renewable energy infrastructure**.
 
 ## About Me
-I have experience in **engineering research, supply chain optimization, and energy efficiency consulting**. My work spans from **drone-based photovoltaic (PV) inspection research** to **machine learning for manufacturing applications**. Previously, I interned at **Lockheed Martin** in a supply chain engineering role and worked with the **Southern New England Industrial Assessment Center (SNE-IAC)** to improve energy efficiency for small and medium-sized manufacturers.
+I serve as **Lead Student at UConn's Industrial Training and Assessment Center (ITAC)**, where I conduct energy efficiency assessments at manufacturing facilities and have recommended over **$4 million in energy savings**. My research combines rigorous mathematical modeling with practical engineering applications, spanning from **computer vision for solar panel inspection** to **queueing theory for compressed air leak detection**. I'm currently applying to PhD programs in Industrial and Operations Engineering, with research interests at the intersection of optimization, energy systems, and machine learning.
 
 ## Research Interests
-- **AI/ML for Engineering** – Applying **semantic segmentation** for PV inspection and evaluating **surrogate modeling techniques** in engineering design.
-- **Renewable Energy & Grid Optimization** – Exploring UAV-based inspections and optimizing **photovoltaic (PV) maintenance strategies**.
-- **Manufacturing & Supply Chain Engineering** – Investigating **data-driven insights** for industrial process improvements.
+- **Stochastic Optimization & Queueing Theory** – Developing M/M/∞ models for compressed air leak detection and maintenance scheduling in manufacturing facilities.
+- **Physics-Informed Machine Learning** – Applying computer vision and thermal imaging analysis for automated photovoltaic system inspection and degradation assessment.
+- **Energy Systems & Industrial Sustainability** – Integrating economic analysis with technical modeling to optimize renewable energy maintenance strategies and manufacturing energy efficiency.
 
-## Projects
-- **Drone-Based PV Inspection** – Studying feasibility, ROI, and software integration for **thermal drone inspection** of solar panels.
-- **Surrogate Modeling in Engineering** – Analyzing **Kriging, ANN, RBF**, and other surrogate methods for engineering applications.
-- **Energy Efficiency in Manufacturing** – Conducting **on-site industrial assessments** and developing **custom energy models**.
+## Current Projects
+- **Compressed Air Leak Detection via Stochastic Modeling** – Developing queueing-theoretic frameworks for optimizing ultrasonic leak detection in manufacturing environments (NSF GRFP research proposal).
+- **Automated PV Inspection Using Drone-Based Thermal Imaging** – Building physics-informed machine learning models to detect solar panel defects and predict degradation patterns (CESIP Fellowship with Eversource).
+- **Industrial Energy Efficiency Assessment** – Leading on-site assessments across Connecticut manufacturing facilities, analyzing electrical systems, compressed air networks, and thermal processes.
 
 ---
 
-_Last updated: May 2025_
+_Last updated: December 2025_
