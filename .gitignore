@@ -35,3 +35,16 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Jekyll / al-folio build artifacts #
+######################################
+_site
+.bundle
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+.ruby-version
+assets/libs/
+node_modules/
+vendor
+al-folio-upgrade-report.md
